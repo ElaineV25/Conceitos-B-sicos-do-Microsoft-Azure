@@ -1,1 +1,86 @@
+"Segurança e Identidade" na Microsoft Azure são pilares fundamentais para garantir que os dados, aplicativos e recursos na nuvem estejam protegidos contra acessos não autorizados, ameaças e falhas de conformidade. Aqui vai um panorama dos principais conceitos e serviços relacionados a segurança e identidade no Azure:
 
+Identidade no Azure
+O gerenciamento de identidade no Azure é centrado no Azure Active Directory (Azure AD) — que agora se chama Microsoft Entra ID.
+
+Principais recursos do Azure AD (Microsoft Entra ID):
+Autenticação e Autorização
+
+Autenticação de usuários com Single Sign-On (SSO).
+
+Suporte a Multi-Factor Authentication (MFA).
+
+Integração com aplicativos SaaS como Office 365, Salesforce, etc.
+
+Gerenciamento de Usuários e Grupos
+
+Criação, organização e controle de acesso baseado em grupos e funções.
+
+Identidade Híbrida
+
+Integração com Active Directory local usando Azure AD Connect.
+
+Conditional Access
+
+Políticas de acesso com base em condições como localização, dispositivo e risco.
+
+Identidade Gerenciada (Managed Identity)
+
+Permite que serviços do Azure acessem outros recursos com segurança, sem armazenar credenciais no código.
+
+Segurança no Azure
+Azure oferece uma vasta gama de ferramentas de segurança que abrangem desde proteção contra ameaças até conformidade regulatória.
+
+Principais ferramentas e práticas:
+Microsoft Defender for Cloud
+
+Avalia a postura de segurança.
+
+Identifica vulnerabilidades.
+
+Recomendação de ações corretivas.
+
+Proteção contra ameaças.
+
+Azure Security Center
+
+Gerencia políticas de segurança em todos os recursos do Azure.
+
+Identifica configurações incorretas.
+
+Azure Key Vault
+
+Armazena e gerencia chaves, segredos e certificados com segurança.
+
+Network Security
+
+NSG (Network Security Groups) para controlar o tráfego de rede.
+
+Azure Firewall e DDoS Protection.
+
+Privileged Identity Management (PIM): acesso just-in-time para reduzir risco de privilégios elevados.
+
+Compliance e Auditoria
+
+Suporte a padrões como ISO 27001, GDPR, HIPAA.
+
+Azure Policy e Blueprints para governança.
+
+Log e Monitoramento
+
+Azure Monitor e Log Analytics.
+
+Microsoft Sentinel: SIEM/SOAR baseado em nuvem.
+
+Boas Práticas de Segurança e Identidade no Azure
+Habilitar MFA para todos os usuários.
+
+Utilizar RBAC (Role-Based Access Control) ao invés de permissões amplas.
+
+Aplicar políticas de acesso condicional.
+
+Monitorar continuamente os recursos com o Defender for Cloud.
+
+Proteger dados com criptografia em repouso e em trânsito.
+
+Revisar regularmente logs e alertas de segurança.
