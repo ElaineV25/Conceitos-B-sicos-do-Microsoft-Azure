@@ -1,0 +1,43 @@
+Principais Serviços da Microsoft Azure
+🖥️ Computação
+Serviço	Descrição
+App Service	Hospedagem de aplicações web e APIs com escalabilidade automática.
+Azure Functions	Executa pequenos trechos de código (serverless), ideal para tarefas automatizadas.
+Virtual Machines (VMs)	Infraestrutura sob demanda para rodar Windows, Linux ou qualquer sistema.
+Azure Kubernetes Service (AKS)	Orquestração de contêineres com Kubernetes gerenciado.
+
+☁️ Armazenamento e Bancos de Dados
+Serviço	Descrição
+Azure Blob Storage	Armazenamento de arquivos não estruturados (imagens, backups, vídeos etc.).
+Azure Files	Compartilhamento de arquivos via SMB, como se fosse um disco de rede.
+Azure SQL Database	Banco de dados relacional como serviço (PaaS).
+Cosmos DB	Banco de dados NoSQL distribuído globalmente.
+Azure Cache for Redis	Armazenamento em cache com latência ultrabaixa.
+
+🧠 Inteligência Artificial & Machine Learning
+Serviço	Descrição
+Azure Cognitive Services	APIs para visão computacional, fala, tradução, linguagem natural etc.
+Azure Machine Learning	Plataforma para criação, treinamento e publicação de modelos de ML.
+
+🔄 Integração & Automação
+Serviço	Descrição
+Logic Apps	Workflows automatizados com integração a serviços e APIs.
+Event Grid	Roteamento de eventos entre serviços em tempo real.
+Service Bus	Fila de mensagens para sistemas desacoplados.
+
+🔐 Segurança e Identidade
+Serviço	Descrição
+Azure Active Directory (Azure AD)	Gerenciamento de identidade, login único (SSO) e MFA.
+Key Vault	Armazenamento seguro de chaves, senhas e segredos.
+
+📊 DevOps & Monitoramento
+Serviço	Descrição
+Azure DevOps	Conjunto de ferramentas para CI/CD, planejamento ágil e gerenciamento de código.
+Azure Monitor / Application Insights	Monitoramento de performance, logs e alertas para aplicações.
+
+🌐 Rede
+Serviço	Descrição
+Azure Virtual Network (VNet)	Rede privada para interligar recursos Azure com segurança.
+Azure Load Balancer	Balanceamento de carga para VMs e serviços.
+Azure DNS	Gerenciamento de domínios e zonas DNS.
+
