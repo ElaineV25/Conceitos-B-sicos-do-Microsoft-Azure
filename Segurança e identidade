@@ -1,6 +1,6 @@
 "Segurança e Identidade" na Microsoft Azure são pilares fundamentais para garantir que os dados, aplicativos e recursos na nuvem estejam protegidos contra acessos não autorizados, ameaças e falhas de conformidade. Aqui vai um panorama dos principais conceitos e serviços relacionados a segurança e identidade no Azure:
 
-Identidade no Azure
+🔐 Identidade no Azure
 O gerenciamento de identidade no Azure é centrado no Azure Active Directory (Azure AD) — que agora se chama Microsoft Entra ID.
 
 Principais recursos do Azure AD (Microsoft Entra ID):
@@ -28,7 +28,7 @@ Identidade Gerenciada (Managed Identity)
 
 Permite que serviços do Azure acessem outros recursos com segurança, sem armazenar credenciais no código.
 
-Segurança no Azure
+🔒 Segurança no Azure
 Azure oferece uma vasta gama de ferramentas de segurança que abrangem desde proteção contra ameaças até conformidade regulatória.
 
 Principais ferramentas e práticas:
@@ -72,7 +72,7 @@ Azure Monitor e Log Analytics.
 
 Microsoft Sentinel: SIEM/SOAR baseado em nuvem.
 
-Boas Práticas de Segurança e Identidade no Azure
+✅ Boas Práticas de Segurança e Identidade no Azure
 Habilitar MFA para todos os usuários.
 
 Utilizar RBAC (Role-Based Access Control) ao invés de permissões amplas.
