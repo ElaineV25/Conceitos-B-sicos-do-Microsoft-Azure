@@ -1,1 +1,90 @@
+Dicas práticas e boas práticas:
+
+1. Governança e Organização
+🔹 Use grupos de gerenciamento (Management Groups):
+Organize assinaturas em grupos para aplicar políticas e controle de acesso em escala.
+
+🔹 Padronize a nomenclatura:
+Crie uma convenção de nomes clara para recursos (ex: rg-app1-prod-eastus) para facilitar a automação e o suporte.
+
+🔹 Tags em todos os recursos:
+Use tags como Owner, Environment, CostCenter para rastreamento de custos e governança.
+
+🔹 Use Blueprints ou Azure Landing Zones:
+Padronize a criação de ambientes com segurança, rede, identidade e conformidade já definidos.
+
+🔒 2. Segurança e Identidade
+🔹 Habilite Multi-Factor Authentication (MFA):
+Obrigatório para todos os usuários, especialmente administradores.
+
+🔹 Use acesso baseado em função (RBAC):
+Atribua mínimos privilégios necessários e evite uso de "Owner" desnecessário.
+
+🔹 Habilite o Azure Security Center / Defender for Cloud:
+Receba alertas, recomendações e proteja sua infraestrutura.
+
+🔹 Use Azure Key Vault:
+Nunca armazene senhas ou segredos no código — armazene com segurança no Key Vault.
+
+🔹 Ative o Azure AD Conditional Access:
+Bloqueie ou restrinja acesso com base em localização, dispositivo, risco de login, etc.
+
+💰 3. Custos e Orçamento
+🔹 Use Azure Cost Management + Budgets:
+Crie alertas para gastos e acompanhe consumo por assinatura, tag ou recurso.
+
+🔹 Evite recursos ociosos:
+Desligue VMs, scale sets e bancos de dados não utilizados.
+
+🔹 Use Reservas e Instâncias Spot:
+Reduza custos em cargas previsíveis com Azure Reservations ou Spot VMs.
+
+🔹 Escolha a região certa:
+Algumas regiões têm custos mais baixos — avalie preço e latência.
+
+⚙️ 4. Desempenho e Escalabilidade
+🔹 Use Auto Scale em VMs e App Services:
+Configure para escalar automaticamente conforme a demanda.
+
+🔹 Monitore com Azure Monitor + Application Insights:
+Veja métricas, logs, tempos de resposta e diagnósticos em tempo real.
+
+🔹 Escolha o SKU adequado:
+Não use recursos "premium" desnecessariamente — analise o workload antes.
+
+🔁 5. Continuidade e Backup
+🔹 Habilite Backup com Azure Backup:
+Proteja VMs, bancos de dados e arquivos com políticas de backup regulares.
+
+🔹 Teste seu plano de recuperação de desastres:
+Use Azure Site Recovery e simule falhas para garantir resiliência.
+
+🧩 6. Infraestrutura como Código (IaC)
+🔹 Use Bicep, ARM ou Terraform:
+Padronize a criação e o versionamento da infraestrutura.
+
+🔹 Armazene templates no Git:
+Use DevOps pipelines para aplicar mudanças seguras e auditáveis.
+
+🛡️ 7. Conformidade e Auditoria
+🔹 Use Azure Policy:
+Imponha regras como "só criar VMs em uma região" ou "criptografia obrigatória".
+
+🔹 Ative logging com Azure Activity Log e Log Analytics:
+Monitore quem fez o quê, quando e onde.
+
+🔹 Revise acessos regularmente:
+Use Privileged Identity Management (PIM) para acessos temporários a funções críticas.
+
+
+
+
+
+
+
+
+
+
+
+
 
