@@ -1,4 +1,4 @@
-# 📘 Azure Study Notes
+# 📘 Azure Notas de Estudo
 
 Este repositório contém resumos, anotações e dicas práticas sobre a plataforma Microsoft Azure, com foco em estudo, certificações e aplicação em projetos reais.
 
